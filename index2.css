@@ -1,0 +1,116 @@
+*{
+	color : #333333;
+	font-family:Century Gothic, sans-serif;
+	text-decoration:none;
+}
+h1 {
+	color : black;
+}
+body{
+	background-color:#e1e9f7;
+}
+.menu{
+	position:fixed;
+	top:0%;
+	padding-left:0%;
+	background-color:black;
+	line-height:50%;
+	width:100%;
+	height:7%;
+	z-index:2;
+}
+#menuatas{
+	margin:0%;
+	display:inline-block;
+	width:100%;
+}
+.judul{
+	color:white;
+	padding-left:0%;	
+	display:inline-block;
+}
+.atas{
+	display:inline-block;
+	margin-bottom:10px;
+	color:gray;
+	padding-left:20px;
+	margin:20px;
+}
+a{
+	color:white;
+}
+.akun{
+	display:inline-block;
+	color:white;
+	padding-right:0%;
+}
+.container1{
+	position:absolute;
+	background-color:white;
+	left:20%;
+	right:5%;
+	margin-top:4%;
+	padding:1%;
+}
+#j1{
+	left:10%;
+}
+marquee{
+	color:white;
+}
+.container2{
+	position:absolute;
+	background-color:white;
+	left:5%;
+	padding:1%;
+	margin-top:4%;
+}
+.lo{
+	float:right;
+	padding-right:7%;
+}
+.lo h3{
+	margin:20px;
+}
+.lingkaran{
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	margin:20px;
+}
+.overlay{
+	display:none;
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color:rgba(45, 45, 45, 0.5);
+	z-index:10;
+}
+.overlay button{
+	float:right;
+	position:left;
+}
+.popup{
+	background-color:white;
+	position:absolute;
+	margin-left:30%;
+	margin-top:10%;
+	padding-left:2%;
+	width:40%;
+	height:60%;
+}
+input{
+	padding-right:60%;
+}
+.footer{
+	position:absolute;
+	width:100%;
+	background:black;
+	color:white;
+	line-height:30px;
+	padding-left:35%;
+	right:0;
+	left:0;
+	bottom:0;
+	margin-bottom:-740px;
+}
